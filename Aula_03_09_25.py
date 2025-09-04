@@ -116,3 +116,18 @@ def minhaFuncaoAccum(string):
 print(minhaFuncaoAccum("abcd"))
 print(minhaFuncaoAccum("RqaEzty"))
 print(minhaFuncaoAccum("cwAt"))
+
+os.system('pause')
+os.system('cls')
+
+def solucaoProfessorAccum(string):
+    novaStr = []
+
+    for i, letra in enumerate(string):
+        novaStr.append(((i + 1) * letra).capitalize())
+    
+    return "-".join(novaStr)
+
+print(minhaFuncaoAccum("abcd"))
+print(minhaFuncaoAccum("RqaEzty"))
+print(minhaFuncaoAccum("cwAt"))
